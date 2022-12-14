@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 public class RegisterDTO {
+
     private String name;
     private String email;
     private String gender;

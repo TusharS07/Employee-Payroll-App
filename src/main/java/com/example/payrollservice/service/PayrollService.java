@@ -32,6 +32,7 @@ public class PayrollService  implements IpayrollService {
         throw new EmpException("Only Admin Can access This API");
     }
 
+
     @Override
     public String registerEmp(RegisterDTO registerDTO) {
         if (payrollRepositery.findByEmail(registerDTO.getEmail()) == null) {

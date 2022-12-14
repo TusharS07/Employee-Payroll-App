@@ -16,4 +16,5 @@ public interface IpayrollService {
 
     List<PayrollModel> getAllEmployeeData(int id);
 
+
 }
