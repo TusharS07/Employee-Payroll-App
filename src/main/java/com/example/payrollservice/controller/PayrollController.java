@@ -4,7 +4,6 @@ package com.example.payrollservice.controller;
 import com.example.payrollservice.Response;
 import com.example.payrollservice.dto.RegisterDTO;
 import com.example.payrollservice.model.PayrollModel;
-import com.example.payrollservice.repositery.PayrollRepositery;
 import com.example.payrollservice.service.IpayrollService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
