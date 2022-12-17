@@ -15,6 +15,4 @@ public interface IpayrollService {
     PayrollModel updateEmpData(int id, RegisterDTO registerDTO);
 
     List<PayrollModel> getAllEmployeeData(int id);
-
-
 }

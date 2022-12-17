@@ -18,9 +18,6 @@ import java.util.List;
 public class PayrollController {
 
     @Autowired
-    PayrollRepositery payrollRepositery;
-
-    @Autowired
     IpayrollService ipayrollService;
 
     @PostMapping("/Register_Employee")
@@ -57,6 +54,4 @@ public class PayrollController {
         Response response = new Response(payrollModelList, "All Employee Data" );
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
-
-
 }
